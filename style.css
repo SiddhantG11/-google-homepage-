@@ -1,5 +1,4 @@
 
-
 .logo {
     display: flex;
     justify-content: center;
@@ -12,15 +11,30 @@
     margin: -70px 0 0 -170px;
 }
 .search{
+    /* Need to be able to explain what each of this does and why  */
     display: flex;
-    justify-content: center;
+    justify-content: center; 
     align-items: center;
     height: auto;
     width: auto; 
     border: 10px;
     height: 90vh;
     max-width: 700vh;
-    margin: auto;
-    
-    
+    margin: auto;   
+}
+/* .nav_bar {
+    float: right;
+  display: block;
+  color: rgba(0,0,0,0.87);
+  text-align: center;
+  text-decoration: none;
+  font-family: arial,sans-serif;
+  padding: 14px 16px;
+  /* text-decoration: none; */
+  /* font-size: 14px;
+} */ 
+#account {
+display: flex;
+justify-content: right;
+border-radius: 50%;
 }
