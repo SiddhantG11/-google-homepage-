@@ -1,40 +1,72 @@
+/* 
+ * {
+    outline: 1px solid gold;
+   }  */
+   
+   body {
+       margin: 0px;
+   }
 
-.logo {
+   .page {
+    display: flex;
+	height: 90vh;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+   }
+
+   .logo {
+	display: flex;
+	flex-direction: column;
+	margin-top: -30px;
+	margin-bottom: 20px;
+}
+.searchbox {
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 5px;
-    margin: auto;
-    position: absolute;
-    top: 35.5%;
-    left: 52%;
-    margin: -70px 0 0 -170px;
+    align-self: center;
+
 }
-.search{
-    /* Need to be able to explain what each of this does and why  */
+
+
+.nav_bar {
+	display: flex;
+	width: 100%;
+	flex-direction: row-reverse;
+}
+
+.account {
+	display: flex;
+	border-radius: 50%;
+	max-height: 25px;
+	max-width: 25px;
+	overflow: hidden;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+}
+a {
+	color: rgba(0, 0, 0, 0.87);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+.footer {
+    position: fixed;
+    bottom: 0px;
+    padding-bottom: 10px;
+}
+.logo_search {
     display: flex;
-    justify-content: center; 
-    align-items: center;
-    height: auto;
-    width: auto; 
-    border: 10px;
-    height: 90vh;
-    max-width: 700vh;
-    margin: auto;   
+	flex-direction: column;
+	align-items: center;
+	height: 100%;
+	align-content: center;
+	justify-content: center;
 }
-/* .nav_bar {
-    float: right;
-  display: block;
-  color: rgba(0,0,0,0.87);
-  text-align: center;
-  text-decoration: none;
-  font-family: arial,sans-serif;
-  padding: 14px 16px;
-  /* text-decoration: none; */
-  /* font-size: 14px;
-} */ 
-#account {
-display: flex;
-justify-content: right;
-border-radius: 50%;
-}
+
+
+
