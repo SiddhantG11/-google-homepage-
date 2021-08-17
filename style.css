@@ -4,6 +4,7 @@
 	 height: 100%;
 	 margin: 0%;
 	 padding: 0%;
+	 min-width: 400px;
 	 /* Adding html makes the container apply to whole page */
  }
 
@@ -86,27 +87,54 @@
 	flex-direction: column;
 	align-items: center;
 	height: 100%;
-	align-content: center;
 	justify-content: center;
 }
    .logo {
 	display: flex;
 	flex-direction: column;
-	margin-top: -30px;
-	margin-bottom: 20px;
+	min-height: 92px;
+	align-items: center;
+	padding-top:  165px;
 }
 .searchbox {
     display: flex;
-    justify-content: center;
-    align-self: center;
-    width:527px;
-    height:39px;
+	justify-content: center;
+	padding: 24px;
+	height: 160px;
+	
+}
+.search-half {
+	display: flex;
 
+
+	/* border: 1px solid #dfe1e5; */
 }
 
 
+.search-bar {
+	width: 584px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 44px;
+	border: 1px solid #dfe1e5;
+	border-radius: 24px;
+}
+/* .inner-form {
+	display: flex;
 
-
+} */
+.mag-glass {
+	display: flex;
+	align-items: center;
+	padding-right: 10px;
+	opacity: 0.3;
+}
+input {
+	width: 527px;
+	height: 34px;
+	border: none;
+}
 
 a {
 	color: rgba(0, 0, 0, 0.87);

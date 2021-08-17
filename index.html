@@ -4,6 +4,8 @@
 <!-- need to add more <div> elements </div> and then have a proper heirarchy of elements like the discord dude did  -->
 <html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
@@ -12,7 +14,7 @@
 
     <body>
         <div class="flex-page">
-            <div class="page">
+            <div class="flex-page">
                 <div class="nav_bar">
                     <div class="nav-item">
                         <div class="icons">
@@ -36,23 +38,33 @@
                     </div>
 
                 </div>
-
-                        
-
-
                     
-                <div class="logo_search">
+                <!-- <div class="logo_search"> -->
                     <div class="logo">
                         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Icon">
                     </div>
                     <div class="searchbox">
-                        <form action="#" id="temp">
-                            <input type="text" name="search">
-                        </form>
+                        <form class="search-bar" action="/search" method="GET">
+                            <div class="mag-glass">
+                                <span class="material-icons">
+                                    search
+                                    </span>
+                            </div>
+                            <div class="search-half">
+                                <div class="inner-form">
+                                    <input type="text" name="search">
+                                </div>
+                                
+                            </div>
+                                
+                    </form>
+
+                        </div>
+                        
                         
                     </div>
                     
-                </div>
+                <!-- </div> -->
                 
                 <div class="footer">
                     <a href="#">About</a>
