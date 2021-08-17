@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 
-
+<!-- need to add more <div> elements </div> and then have a proper heirarchy of elements like the discord dude did  -->
 <html lang="en">
     <head>
         <link rel="stylesheet" href="style.css">
@@ -11,38 +11,59 @@
     </head>
 
     <body>
-        <div class="page">
-            <div class="nav_bar">
-                <div class="account">
-                    <img src="https://lh3.googleusercontent.com/ogw/ADea4I4mEOo6SeSZd_nC17SAUhS4uHQWtf4OVdOrF7XyO40=s32-c-mo" alt="Account Circle">
+        <div class="flex-page">
+            <div class="page">
+                <div class="nav_bar">
+                    <div class="nav-item">
+                        <div class="icons">
+                            <div class="mail-images"> 
+                                <div class="mail">
+                                    <a href="https://mail.google.com/mail/u/0/#inbox">Gmail</a>
+                                </div>
+                                <div class="images">
+                                <a href="https://www.google.com/search?client=firefox-b-d&q=google+images+">Images</a>
+                                </div>
+                            </div>
+                            <div class="grid-account">
+                                <div class="grid">
+                                    <span class="material-icons">apps</span>
+                                </div>
+                                <div class="account">
+                                    <img class="photo" src="https://lh3.googleusercontent.com/ogw/ADea4I4mEOo6SeSZd_nC17SAUhS4uHQWtf4OVdOrF7XyO40=s32-c-mo" alt="Account Circle">
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+
                 </div>
-                <div id="grid">
-                    <span class="material-icons">apps</span>
-                </div>
-                <div id="mail-images"> 
-                    <a href="https://mail.google.com/mail/u/0/#inbox">Gmail</a>
-                    <a href="https://www.google.com/search?client=firefox-b-d&q=google+images+">Images</a>
-                </div>
-            </div>
-            <div class="logo_search">
-                <div class="logo">
-                    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Icon">
-                </div>
-                <div class="searchbox">
-                    <form action="#" id="temp">
-                        <input type="text" name="search">
-                    </form>
+
+                        
+
+
+                    
+                <div class="logo_search">
+                    <div class="logo">
+                        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Icon">
+                    </div>
+                    <div class="searchbox">
+                        <form action="#" id="temp">
+                            <input type="text" name="search">
+                        </form>
+                        
+                    </div>
                     
                 </div>
                 
+                <div class="footer">
+                    <a href="#">About</a>
+                    <a href="#">Advertising</a>
+                    <a href="#">How Search Works</a>
+                </div>
             </div>
-            
-            <div class="footer">
-                <a href="#">About</a>
-                <a href="#">Advertising</a>
-                <a href="#">How Search Works</a>
-            </div>
+                
+
         </div>
+        
  
     </body>
 

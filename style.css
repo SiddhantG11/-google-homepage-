@@ -1,20 +1,94 @@
-/* 
- * {
-    outline: 1px solid gold;
-   }  */
-   
-   body {
-       margin: 0px;
-   }
 
-   .page {
-    display: flex;
-	height: 90vh;
+
+ body, html {    
+	 height: 100%;
+	 margin: 0%;
+	 padding: 0%;
+	 /* Adding html makes the container apply to whole page */
+ }
+
+.flex-page {
+	display: flex;
 	flex-direction: column;
-	justify-content: flex-start;
-	align-items: center;
-   }
+	height: 100%;
+	/* Adding height makes the container bigger  */
+}
 
+.nav_bar {
+	display: flex;
+    width: 100%;
+    align-items: flex-end;
+    flex-direction: column;
+    padding: 6px;
+    height: 60px;
+    box-sizing: border-box;
+}
+
+.nav-item{
+	display: flex;
+	padding-left: 32px;
+	height:48px;
+	font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+}
+.icons {
+	display: flex;
+	padding: 0 4px;
+		padding-left: 32px;
+	align-items: center;
+
+}
+.mail-images {
+	display: flex;
+	padding-top: 5px;
+	padding-right: 15px;
+	font-family: Arial, sans-serif;
+	/* margin: 2px; */
+	/* font-size: 13px; */
+}
+.mail {
+	display: flex;
+	padding-right: 15px;
+	/* margin: 2px; */
+}
+
+.images {
+	display: flex;
+	padding-right: 6px;
+	/* margin: 2px; */
+}
+.grid-account {
+	display: flex;
+	align-items: flex-end;	
+	padding: 4px;
+}
+
+.grid {
+	display: flex;
+	padding: 6px;
+	/* margin: 2px; */
+	/* height: 40px;
+	width: 40px; */
+}
+
+
+.account {
+	display: block;
+    padding: 0 10px;
+}
+
+.photo {
+	display: block;
+	border-radius: 50%;
+}
+  
+   .logo_search {
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100%;
+	align-content: center;
+	justify-content: center;
+}
    .logo {
 	display: flex;
 	flex-direction: column;
@@ -25,26 +99,15 @@
     display: flex;
     justify-content: center;
     align-self: center;
+    width:527px;
+    height:39px;
 
 }
 
 
-.nav_bar {
-	display: flex;
-	width: 100%;
-	flex-direction: row-reverse;
-}
 
-.account {
-	display: flex;
-	border-radius: 50%;
-	max-height: 25px;
-	max-width: 25px;
-	overflow: hidden;
-	align-items: center;
-	justify-content: center;
-	align-content: center;
-}
+
+
 a {
 	color: rgba(0, 0, 0, 0.87);
 	text-decoration: none;
@@ -58,15 +121,9 @@ a:hover {
     position: fixed;
     bottom: 0px;
     padding-bottom: 10px;
+    background-color: #f2f2f2;
 }
-.logo_search {
-    display: flex;
-	flex-direction: column;
-	align-items: center;
-	height: 100%;
-	align-content: center;
-	justify-content: center;
-}
+
 
 
 
