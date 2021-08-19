@@ -144,9 +144,11 @@
 
 
 a {
-	color: rgba(0, 0, 0, 0.87);
+	color: #70757a;
 	text-decoration: none;
 	font-size: 14px;
+	font-family: arial,sans-serif
+	;
 }
 
 a:hover {
